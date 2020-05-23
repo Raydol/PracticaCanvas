@@ -1,0 +1,41 @@
+#datos {
+    float: left;
+}
+
+#muestra {
+    padding-top: 20px;
+    margin-left: 16%;
+}
+
+#detalles {
+    position: fixed;
+    top: 32%;
+}
+
+#nombre, #descripcion {
+    display: block;
+    margin-bottom: 20px;
+    border: 2px black solid;
+}
+
+#nombre {
+    width: 225px;
+}
+
+#descripcion {
+    resize: none;
+    height: 150px;
+    width: 250px;
+}
+
+.oculto {
+    display: none;
+}
+
+.visible {
+    display: inline;
+}
+
+span {
+    color: red;
+}
